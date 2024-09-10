@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="jdhomepage.css" />
+    <title>Best Selling Items</title>
+    <link rel="stylesheet" href="jdHomepage-seeAll.css" />
+    <link rel="stylesheet" href="jdhomepage.css " />
   </head>
   <body>
     <header>
@@ -16,7 +17,7 @@
           <div class="logo">Gromuse</div>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Accueil</a></li>
+          <li><a href="jdhomepage.html">Accueil</a></li>
           <li><a href="#about">Qui Nous Sommes</a></li>
           <li><a href="#contact">Nous Contacter</a></li>
           <li><a href="#marketplace">Marketplace</a></li>
@@ -39,97 +40,75 @@
       </nav>
     </header>
     <main>
-      <section class="promo-section">
-        <div class="promo">
-          <h2>Get 10% Caseback on Shopping $150</h2>
-          <p>
-            Shopping is a bit of a relaxing hobby for me, which is sometimes
-            troubling for the bank balance.
-          </p>
-          <button>Learn More</button>
+      <!-- Promotions Section -->
+      <section class="promotions">
+        <div class="promo-card">
+          <h2>Save $29</h2>
+          <p>Enjoy Discount at all types of Grocery & frozen item</p>
+          <img src="item1.png" alt="Promo Item 1" />
         </div>
-        <img src="lentils.jpg" alt="Lentils" />
+        <div class="promo-card">
+          <h2>Discount 30%</h2>
+          <p>Enjoy Discount at all types of Grocery & frozen item</p>
+          <img src="item2.png" alt="Promo Item 2" />
+        </div>
+        <div class="promo-card">
+          <h2>Up to 50%</h2>
+          <p>Enjoy Discount at all types of Grocery & frozen item</p>
+          <img src="item3.png" alt="Promo Item 3" />
+        </div>
+        <div class="promo-card">
+          <h2>Free Ship</h2>
+          <p>Enjoy Discount at all types of Grocery & frozen item</p>
+          <img src="item4.png" alt="Promo Item 4" />
+        </div>
       </section>
 
-      <section class="product-category">
-        <h1>Gromuse / All Category</h1>
-        <div class="filters">
-          <button>All Categories</button>
-          <button>Price</button>
-          <button>Review</button>
-          <button>Color</button>
-          <button>Material</button>
-          <button>Offer</button>
-          <button>All Filters</button>
-          <button>Sort by</button>
-        </div>
-        <div class="container1">
-          <div class="card">
-            <h3>Vegetables</h3>
-            <img src="légumes.png" alt="Icône légumes" />
-            <p>Marché local</p>
-          </div>
-          <div class="card">
-            <h3>Snacks & Breads</h3>
-            <img src="pain.png" alt="Icône pain" />
-            <p>Livraison en magasin</p>
-          </div>
-          <div class="card">
-            <h3>Fruits</h3>
-            <img src="pain.png" alt="Icône pain" />
-            <p>Livraison en magasin</p>
-          </div>
-          <div class="card">
-            <h3>Chicken legs</h3>
-            <img src="pain.png" alt="Icône pain" />
-            <p>Livraison en magasin</p>
-          </div>
-          <div class="card">
-            <h3>Milk & Diary</h3>
-            <img src="pain.png" alt="Icône pain" />
-            <p>Livraison en magasin</p>
-          </div>
-          <div class="card1">
-            <a href="jdHomepage-seeAll.html"
-              ><h3>&#8594;</h3>
-              <p>See all</p>
-            </a>
-          </div>
-        </div>
+      <!-- Best Selling Items Section -->
+      <section class="best-sellers">
+        <h2>Weekly best selling items</h2>
+        <nav class="categories">
+          <button class="category active">Frozen food</button>
+          <button class="category">Vegetables</button>
+          <button class="category">Snacks</button>
+          <button class="category">Chicken</button>
+          <button class="category">Meat & Ball</button>
+          <button class="category">Dairy & Milk</button>
+          <button class="category">Chocolate</button>
+          <button class="category">Fruits</button>
+        </nav>
 
         <div class="products">
           <div class="product">
-            <img src="avocado.jpg" alt="Avocado" />
-            <h3>
-              Italian Avocado <br />
-              (Local shop)
-            </h3>
-            <p>500 gm.</p>
-            <span class="price">14,29$</span>
-            <button class="add-to-cart">+</button>
+            <img src="deer.png" alt="Organic frozen deer" />
+            <h3>Organic frozen deer</h3>
+            <p>$14.29</p>
+            <button>Add to Cart</button>
           </div>
           <div class="product">
-            <img src="sprite.jpg" alt="Sprite" />
-            <h3>Cold drinks <br />(Sprite)</h3>
-            <p>500 gm.</p>
-            <span class="price">06,29$</span>
-            <button class="add-to-cart">+</button>
+            <img src="fish.png" alt="Fresh Coral frozen fish" />
+            <h3>Fresh Coral frozen fish</h3>
+            <p>$18.29</p>
+            <button>Add to Cart</button>
           </div>
           <div class="product">
-            <img src="beetroot.jpg" alt="Beetroot" />
-            <h3>Beetroot <br />(Local shop)</h3>
-            <p>500 gm.</p>
-            <span class="price">17,29$</span>
-            <button class="add-to-cart">+</button>
+            <img src="bonduelle.png" alt="Bonduelle royal mix" />
+            <h3>Bonduelle royal mix</h3>
+            <p>$20.29</p>
+            <button>Add to Cart</button>
           </div>
           <div class="product">
-            <img src="Szam.jpg" alt="Szam amm" />
-            <h3>Szam amm <br />(Process food)</h3>
-            <p>500 gm.</p>
-            <span class="price">17,29$</span>
-            <button class="add-to-cart">+</button>
+            <img src="meat.png" alt="Frozen boneless meat" />
+            <h3>Frozen boneless meat</h3>
+            <p>$8.29</p>
+            <button>Add to Cart</button>
           </div>
-          <!-- Additional products... -->
+          <div class="product">
+            <img src="chicken.png" alt="Halal frozen Chicken" />
+            <h3>Halal frozen Chicken</h3>
+            <p>$15.29</p>
+            <button>Add to Cart</button>
+          </div>
         </div>
       </section>
     </main>
@@ -207,6 +186,5 @@
         </div>
       </div>
     </footer>
-    <script src="jdhomepage.js"></script>
   </body>
 </html>
